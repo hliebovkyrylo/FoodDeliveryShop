@@ -1,6 +1,6 @@
-@using FoodDeliveryShop.Models
-@model IEnumerable<Product>
-@foreach (var p in Model)
+@using FoodDeliveryShop.Models.ViewModels
+@model ProductListViewModel
+@foreach (var p in Model.Products)
 {
     <div>
         <hЗ>@p.Name</hЗ>
@@ -8,3 +8,4 @@
         <h4>@p.Price.ToString("c")</h4>
     </div>
 }
+<div page-model="@Model.PagingInfo" page-action="List"></div>
