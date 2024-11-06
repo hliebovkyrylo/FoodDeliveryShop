@@ -20,10 +20,11 @@ app.UseDeveloperExceptionPage();
 app.UseStatusCodePages();
 app.UseStaticFiles();
 
+app.MapControllerRoute("pagination", "Products/Page{page}", new { Controller = "Product", Action = "List" });
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Product}/{action=List}/{id?}");
 
 SeedData.EnsurePopulated(app);
-
 app.Run();

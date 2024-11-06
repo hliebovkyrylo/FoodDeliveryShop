@@ -143,3 +143,4 @@ C:\Users\bestg\RiderProjects\FoodDeliveryShop\FoodDeliveryShop\bin\Debug\net8.0\
 C:\Users\bestg\RiderProjects\FoodDeliveryShop\FoodDeliveryShop\obj\Debug\net8.0\FoodDeliveryShop.csproj.AssemblyReference.cache
 C:\Users\bestg\RiderProjects\FoodDeliveryShop\FoodDeliveryShop\obj\Debug\net8.0\FoodDeli.A5A8A0EF.Up2Date
 C:\Users\bestg\RiderProjects\FoodDeliveryShop\FoodDeliveryShop\obj\Debug\net8.0\FoodDeliveryShop.sourcelink.json
+C:\Users\bestg\RiderProjects\FoodDeliveryShop\FoodDeliveryShop\bin\Debug\net8.0\FoodDeliveryShop.staticwebassets.runtime.json

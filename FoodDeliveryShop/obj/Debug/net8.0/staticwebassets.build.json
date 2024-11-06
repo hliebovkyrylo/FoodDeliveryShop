@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "YYL5tdul4S4SYDvdMK7uzkmMg+UlaX+0W8+K4EiPXf0=",
+  "Hash": "CNS2ezHtQZBWlKcEF64ZcFusr/MIC0WQn3nJxVGU290=",
   "Source": "FoodDeliveryShop",
   "BasePath": "_content/FoodDeliveryShop",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "FoodDeliveryShop\\wwwroot",
+      "Source": "FoodDeliveryShop",
+      "ContentRoot": "C:\\Users\\bestg\\RiderProjects\\FoodDeliveryShop\\FoodDeliveryShop\\wwwroot\\",
+      "BasePath": "_content/FoodDeliveryShop",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\bestg\\RiderProjects\\FoodDeliveryShop\\FoodDeliveryShop\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "SourceId": "FoodDeliveryShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bestg\\RiderProjects\\FoodDeliveryShop\\FoodDeliveryShop\\wwwroot\\",
+      "BasePath": "_content/FoodDeliveryShop",
+      "RelativePath": "lib/bootstrap/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\bestg\\RiderProjects\\FoodDeliveryShop\\FoodDeliveryShop\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "FoodDeliveryShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bestg\\RiderProjects\\FoodDeliveryShop\\FoodDeliveryShop\\wwwroot\\",
+      "BasePath": "_content/FoodDeliveryShop",
+      "RelativePath": "lib/bootstrap/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\bestg\\RiderProjects\\FoodDeliveryShop\\FoodDeliveryShop\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "SourceId": "FoodDeliveryShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bestg\\RiderProjects\\FoodDeliveryShop\\FoodDeliveryShop\\wwwroot\\",
+      "BasePath": "_content/FoodDeliveryShop",
+      "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    }
+  ]
 }
