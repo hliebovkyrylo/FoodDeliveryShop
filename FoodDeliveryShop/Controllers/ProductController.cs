@@ -33,8 +33,12 @@ namespace FoodDeliveryShop.Controllers
                     PagingInfo = new PagingInfo
                     {
                         CurrentPage = page,
+                        CurrentCategory = category,
                         ItemsPerPage = PageSize,
-                        TotalItems = repository.Products.Count(),
+                        TotalItems = category == null? repository.Products.Count() :
+                            repository.Products.Where(e =>
+                                e.Category == category).Count()
+
                     },
                 }
             );
