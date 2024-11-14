@@ -1,0 +1,44 @@
+@if (ViewBag.SelectedCategory == null)
+{
+    <a class="btn btn-block btn-primary w-100"
+       asp-action="List"
+       asp-controller="Product"
+       asp-route-category=""
+       asp-route-page="1">
+        Home
+    </a>
+}
+else
+{
+    <a class="btn btn-block btn-dark w-100"
+       asp-action="List"
+       asp-controller="Product"
+       asp-route-category=""
+       asp-route-page="1">
+        Home
+    </a>
+}
+
+@foreach (string category in Model)
+{
+    if (category == ViewBag.SelectedCategory)
+    {
+        <a class="btn btn-block btn-primary w-100"
+           asp-action="List"
+           asp-controller="Product"
+           asp-route-category="@category"
+           asp-route-page="1">
+            @category
+        </a>
+    }
+    else
+    {
+        <a class="btn btn-block btn-dark w-100"
+           asp-action="List"
+           asp-controller="Product"
+           asp-route-category="@category"
+           asp-route-page="1">
+            @category
+        </a>
+    }
+}
